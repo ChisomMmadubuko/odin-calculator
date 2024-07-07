@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+#app .btn {
+  height: 75px;
+  width: 75px;
+  margin: 15px;
+  font-size: 40px;
+}
+
+#app .number {
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+}
+
+#app .number:hover {
+  background-color: rgb(118, 118, 242);
+  border-color: blue;
+  color: white;
+}
+
+#app .operator {
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+#app .operator:hover {
+  background-color: gray;
+  border-color: blue;
+  color: white;
+}
+
+#app .decimal {
+  border: 1px solid goldenrod;
+  border-radius: 10px;
+}
+
+#app .decimal:hover {
+  background-color: rgb(35, 191, 234);
+  border-color: blue;
+  color: white;
+}
+
+#app .clear {
+  border: 1px solid pink;
+  border-radius: 10px;
+}
+
+#app .clear:hover {
+  background-color: rgb(118, 242, 182);
+  border-color: blue;
+  color: white;
+}
+
+#app .equal {
+  border: 1px solid rgb(240, 117, 201);
+  border-radius: 10px;
+}
+
+#app .equal:hover {
+  background-color: rgb(118, 190, 242);
+  border-color: blue;
+  color: white;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.screen-and-clear {
+  display: flex;
+  align-items: center;
+}
+
+#screen {
+  width: 300px; 
+  border: 1px solid rgb(237, 134, 134);
+  height: 75px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.previous {
+  font-size: 20px;
+}
+
+.current {
+  font-size: 30px;
+}
+
+
